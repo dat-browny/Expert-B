@@ -1,0 +1,22 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 WANDB_DISABLED=True deepspeed --master_port=19121 train.py \
+    --deepspeed ds_config.json \
+    --use_peft \
+    --model_name_or_path 'bigscience/bloomz-7b1-mt' \
+    --data_path ./data/bloom_v1.json \
+    --bf16 True \
+    --output_dir ./bloomz-mt-v1-bs64-ep3-lr1e4 \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 2 \
+    --per_device_eval_batch_size 2 \
+    --gradient_accumulation_steps 8 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 5000 \
+    --save_total_limit 10 \
+    --learning_rate 1e-4 \
+    --weight_decay 3e-7 \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 100 \
+    --tf32 True \
+    --model_max_length 512 
