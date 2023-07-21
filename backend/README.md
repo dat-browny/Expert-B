@@ -23,3 +23,12 @@ return_message = send_and_receive_ans('Làm sao để ngụp 10 lần 1 ngày, h
 print(return_message)
 
 ```
+
+
+## Using API Server
+After ping, you can run api server
+```bash
+python app.py
+
+```
+

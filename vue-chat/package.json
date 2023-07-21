@@ -1,0 +1,74 @@
+{
+  "name": "vue-quick-chat",
+  "version": "1.2.8",
+  "private": false,
+  "main": "./dist/vue-quick-chat.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "author": "Matheus Santos <matheus.r.d.s10@hotmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue-js-chat",
+    "chat",
+    "vuejs",
+    "simple-chat"
+  ],
+  "repository": "https://github.com/MatheusrdSantos/vue-quick-chat",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-quick-chat ./src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "core-js": "^2.6.5",
+    "linkifyjs": "^2.1.9",
+    "luxon": "^1.21.3",
+    "vue": "^2.6.10",
+    "vue-material-design-icons": "^4.4.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "node": "^16.0.0",
+    "vue-cli-plugin-moment": "^0.1.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
