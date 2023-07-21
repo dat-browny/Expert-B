@@ -138,3 +138,6 @@ conv_templates = {"default": conv}
 
 if __name__ == "__main__":
     print(default_conversation.get_prompt())
+
+
+['dolly_6204', 'voz_1394', 'voz_1897', 'voz_1981', 'voz_2068', 'voz_3052', 'voz_4386', 'voz_7806', 'voz_7893', 'voz_8135']

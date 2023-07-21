@@ -3,7 +3,6 @@ torch
 git+https://github.com/huggingface/transformers.git
 accelerate
 peft
-flash-attn
 sentencepiece
 gradio
 fastapi
