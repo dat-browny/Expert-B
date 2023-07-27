@@ -76,6 +76,7 @@ def send_and_receive_ans(text):
         elif i< 5:
             time.sleep(latency)
         else:
+            tg.stop()
             return 'Server does not response!!!!'
         tg.get_chats()
 
