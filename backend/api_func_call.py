@@ -67,11 +67,16 @@ def send_and_receive_ans(text):
     signal = '/help'
     send_msg(tg, text)
     
+    i = 0
     response_signal = False
-    latency = 15
+    latency = 5
     while not response_signal:
-    
-        time.sleep(latency)
+        if i == 0:
+            time.sleep(15)
+        elif i< 5:
+            time.sleep(latency)
+        else:
+            return 'Server does not response!!!!'
         tg.get_chats()
 
         #get msg
@@ -85,9 +90,10 @@ def send_and_receive_ans(text):
         recent_message = [message['content']['text']['text'] for message in response.update['messages']]
 
         if recent_message[-1] == text:
-        
             tg.stop()
             return recent_message[0]
+        
+        i+=1
 
     
 
