@@ -64,7 +64,6 @@ def send_and_receive_ans(text):
         database_encryption_key='changeme1234',
     )
     tg.login()
-    signal = '/help'
     send_msg(tg, text)
     
     i = 0

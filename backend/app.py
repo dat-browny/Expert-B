@@ -10,14 +10,12 @@ app = Flask(__name__)
 @app.route("/")
 # @cross_origin(origin='*')
 def hello_world():
-
     return "<p>Hello, World!</p>"
 @app.route('/chat')
 @cross_origin()
 def chatbot():
     message = request.args.get('text')
     return_message = send_and_receive_ans(message)
-    return_message = message
     response = {"message": return_message}
     return jsonify(response)
 
