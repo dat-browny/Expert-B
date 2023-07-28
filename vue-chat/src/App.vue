@@ -24,9 +24,8 @@
                       :link-options="linkOptions"
                       @onMessageSubmit="onMessageSubmit"
                       @onType="onType"
-                      @onClose="onClose('param value')"/>
+                      @onClose="onClose('param value')"/>           
             </div>
-            
         </div>
     </div>
 </template>
@@ -180,7 +179,7 @@ export default {
         onMessageSubmit(message) {
             this.messages.push(message);
             
-            axios.get(`http://127.0.0.1:3000/chat`,{params: {text: message['content']}})
+            axios.get(`http://localhost:5000/chat`,{params: {text: message['content']}})
             .then(response => {
             this.output = response.data['message']
             console.log(this.output)

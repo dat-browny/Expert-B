@@ -1,7 +1,7 @@
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-    publicPath: '',
+    publicPath: '/',
     css: { extract: true },
     configureWebpack: {
         optimization: {
