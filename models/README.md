@@ -4,6 +4,7 @@ My Thesis provides data, models, and evaluation benchmark for large language mod
 
 ## Latest News
 - [05/10/2023]: Release dataset and training code. 
+- [07/31/2023]: Release model checkpoints and evaluation benchmark.
 
 ## Motivation
 - Achieving maximum utilization of ChatGPT requires not only employing straightforward techniques but also minimizing the expenses associated with training and inference.
@@ -23,7 +24,6 @@ pip install -r requirements.txt
 Used the following two sources of data for training `Bloom`
 
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json)
-- [Dolly](https://huggingface.co/datasets/databricks/databricks-dolly-15k/blob/main/databricks-dolly-15k.jsonl)
 
 Based on my experience, the datasets mentioned above are of the highest quality for training a model according to the given instructions. Certainly, I can look into additional public sources of data such as [Phoenix](https://github.com/FreedomIntelligence/LLMZoo) and [GPT4ALL](https://github.com/nomic-ai/gpt4all) that may be relevant to the task at hand.
 
@@ -39,12 +39,57 @@ In my upcoming plan, I intend to generate Vietnamese instructions utilizing the 
 ### Download
 - [bloom-v1](https://drive.google.com/drive/folders/1So-QFOMyPe2zQ586-ILs2wG6hMtjf9IC?usp=share_link): The data used for training Bloom.
 
-## Models
-Updating...
+## Models & Inference
+Checkpoints is updated at `checkpoints`. 
+```python
+from peft import PeftModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("bigscience/bloomz-7b1-mt")
+
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloomz-7b1-mt", device_map='auto')
+model = PeftModel.from_pretrained(model, 'checkpoints')
+
+
+def generate_prompt_vn(instruction):
+    return f"""A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.\n\nHuman:<s>{instruction}</s> Assistant:<s>"""
+
+generation_config = GenerationConfig(
+    temperature=0.4,
+    top_p=0.75,
+    top_k=40,
+    num_beams=4,
+    do_sample=False,
+    **kwargs,
+)
+
+message = input('Hãy nhập câu hỏi: ')
+
+prompt = generate_prompt_vn(message)
+inputs = tokenizer(prompt, return_tensors="pt")
+input_ids = inputs["input_ids"].to(model.device)
+
+with torch.no_grad():
+    generation_output = model.generate(
+        input_ids=input_ids,
+        generation_config=generation_config,
+        return_dict_in_generate=True,
+        max_new_tokens=512,
+        no_repeat_ngram_size=10
+    )
+s = generation_output.sequences[0]
+output = tokenizer_bloom7b.decode(s)
+generation_output.sequences.detach().cpu()
+input_ids.to('cpu')
+del input_ids, generation_output, s
+
+print(mesage)
+print(output.split("Assistant:")[-1])
+```
+
 
 ## Evaluation and Benchmark
-
-updaing...
+Two evaluate datasets in English and Vietnamese have store in `evaluate` directory, each line in json file is a question in benchmark.
 
 ## Training by yourself
 ### Prepare the data

@@ -1,0 +1,79 @@
+{"question_id": 0, "question": "Viết chương trình tìm số Fibonacci thứ n bằng phương pháp quy hoạch động."}
+{"question_id": 1, "question": "Viết một hàm Python để tìm chuỗi con chung dài nhất của hai chuỗi đầu vào bằng cách sử dụng quy hoạch động."}
+{"question_id": 2, "question": "Thực hiện một biểu thức chính quy trong Python để xác thực địa chỉ email"}
+{"question_id": 3, "question": "Thực hiện một chương trình để tìm các phần tử chung trong hai mảng mà không sử dụng thêm bất kỳ cấu trúc dữ liệu nào."}
+{"question_id": 4, "question": "Phát triển một chương trình C++ đọc một tệp văn bản từng dòng và đếm số lần xuất hiện của một từ cụ thể trong tệp"}
+{"question_id": 5, "question": "Cài đặt thuật toán tìm kiếm nhị phân để tìm một phần tử cụ thể trong một mảng đã được sắp xếp"}
+{"question_id": 6, "question": "Thực hiện một cấu trúc dữ liệu hàng đợi bằng hai ngăn xếp trong Python."}
+{"question_id": 7, "question": "Một số manh mối tinh tế cho thấy ai đó đang giả vờ hiểu một chủ đề hoặc cuộc trò chuyện khi họ thực sự bối rối hoặc không hiểu rõ là gì?"}
+{"question_id": 8, "question": "Làm thế nào để xác định một nhà hàng phổ biến với người địa phương hay chủ yếu thu hút khách du lịch, và tại sao thông tin này có thể hữu ích?"}
+{"question_id": 9, "question": "Làm thế nào để xác định một người có thực sự quan tâm đến cuộc trò chuyện hay chỉ đơn giản là lịch sự?"}
+{"question_id": 10, "question": "Tại sao một người có thể thích mua sắm tại một doanh nghiệp nhỏ địa phương thay vì một chuỗi cửa hàng lớn, ngay cả khi giá cả cao hơn?"}
+{"question_id": 11, "question": "Làm thế nào để đánh giá độ tin cậy của một nguồn thông tin, chẳng hạn như một bài báo hoặc bài đăng trên blog, mà không chỉ dựa vào danh tiếng của tác giả hoặc nhà xuất bản?"}
+{"question_id": 12, "question": "Chúng ta có nghĩa vụ đạo đức để khám phá không gian hay nên tập trung giải quyết các vấn đề trên Trái đất trước?"}
+{"question_id": 13, "question": "Tại sao một người có thể chọn sử dụng bản đồ giấy hoặc hỏi đường thay vì dựa vào thiết bị GPS hoặc ứng dụng điện thoại thông minh?"}
+{"question_id": 14, "question": "Làm thế nào quan sát hành vi của người khác trong một tình huống xã hội có thể cung cấp gợi ý về các quy tắc văn hóa?"}
+{"question_id": 15, "question": "Trong một thế giới mà tự động hóa đang trở nên ngày càng phổ biến, liệu ưu tiên tạo việc làm hay tiến bộ công nghệ quan trọng hơn?"}
+{"question_id": 16, "question": "Tại sao một số người thích cảm giác sợ hãi, như xem phim kinh dị hoặc đi trên tàu lượn siêu tốc, trong khi những người khác tránh những trải nghiệm này?"}
+{"question_id": 17, "question": "Nếu như ban nhạc Beatles không hình thành thì sao?"}
+{"question_id": 18, "question": "Nếu Isaac Newton tập trung vào sinh học thay vì vật lý thì sẽ ra sao?"}
+{"question_id": 19, "question": "Nếu Cái Chết Đen (Dịch Hạch) không xảy ra vào thế kỷ 14 thì sao?"}
+{"question_id": 20, "question": "Nếu người Aztec đã thành công trong việc đẩy lùi thực dân Tây Ban Nha, thì điều gì sẽ xảy ra?"}
+{"question_id": 21, "question": "Nếu Internet được phát minh trong thời kỳ Phục Hưng thì sẽ như thế nào?"}
+{"question_id": 22, "question": "Nếu Alan Turing không giải mã được Enigma trong Thế chiến II thì điều gì sẽ xảy ra?"}
+{"question_id": 23, "question": "Nếu Christopher Columbus không phát hiện ra châu Mỹ thì sao?"}
+{"question_id": 24, "question": "Nếu kênh đào Suez không được xây dựng thì điều gì sẽ xảy ra?"}
+{"question_id": 25, "question": "Nếu nền văn minh Maya không bị sụp đổ một cách bí ẩn thì điều gì sẽ xảy ra?"}
+{"question_id": 26, "question": "Nếu Vincent van Gogh trở thành một họa sĩ thành công lúc sinh thời thì điều gì sẽ xảy ra?"}
+{"question_id": 27, "question": "Cần bao nhiêu quả bóng để nâng một căn nhà lên như trong bộ phim \\\"Up\\\"? Hãy cố gắng giải thích câu trả lời của bạn. Lời giải thích của bạn nên dẫn dắt độc giả qua từng bước tư duy của bạn."}
+{"question_id": 28, "question": "Mỗi ngày có bao nhiêu từ được nói ra trên Trái Đất. Hãy cố gắng giải thích câu trả lời của bạn. Lời giải thích của bạn nên dẫn dắt độc giả qua từng bước tư duy của bạn."}
+{"question_id": 29, "question": "Mỗi ngày trên Trái Đất xảy ra bao nhiêu sét đánh? Hãy cố gắng giải thích câu trả lời của bạn. Giải thích của bạn nên dẫn dắt người đọc qua các bước tư duy của bạn."}
+{"question_id": 30, "question": "Trong cuộc đời con người trung bình sẽ nháy mắt bao nhiêu lần? Hãy cố gắng giải thích câu trả lời của bạn. Giải thích của bạn nên dẫn dắt người đọc qua các bước tư duy của bạn."}
+{"question_id": 31, "question": "Bình thường có bao nhiêu bông tuyết rơi trong một mùa đông? Hãy cố gắng giải thích câu trả lời của bạn. Giải thích của bạn nên đưa người đọc qua các bước tư duy của bạn. "}
+{"question_id": 32, "question": "Có bao nhiêu trang sách đã từng được viết? Hãy cố gắng giải thích câu trả lời của bạn. Lời giải thích của bạn nên đưa người đọc qua từng bước tư duy của bạn."}
+{"question_id": 33, "question": "Có bao nhiêu tin nhắn văn bản được gửi trên toàn cầu trong một phút? Hãy cố gắng giải thích câu trả lời của bạn. Lời giải thích của bạn nên đưa người đọc qua từng bước tư duy của bạn."}
+{"question_id": 34, "question": "Có bao nhiêu nguyên tử trong một hạt muối? Hãy cố gắng giải thích câu trả lời của bạn. Giải thích của bạn nên dẫn dắt người đọc qua các bước suy luận của bạn."}
+{"question_id": 35, "question": "Trái đất quay quanh Mặt trời bao nhiêu lần kể từ khi sự sống bắt đầu xuất hiện? Hãy cố gắng giải thích câu trả lời của bạn. Lời giải thích của bạn nên dẫn dắt người đọc qua các bước lý luận của bạn."}
+{"question_id": 36, "question": "Có bao nhiêu bài hát đã được ghi âm trong lịch sử? Hãy cố gắng giải thích câu trả lời của bạn. Giải thích của bạn nên đưa người đọc qua các bước tư duy của bạn một cách logic."}
+{"question_id": 37, "question": "Bạn có thể giải thích cơ bản về tính toán lượng tử không?"}
+{"question_id": 38, "question": "Làm thế nào để tăng năng suất khi làm việc ở nhà?"}
+{"question_id": 39, "question": "Làm thế nào để phát triển kỹ năng tư duy phản biện của tôi?"}
+{"question_id": 40, "question": "Làm thế nào để cải thiện kỹ năng quản lý thời gian của tôi?"}
+{"question_id": 41, "question": "Hiện nay, ngành giáo dục đang phải đối mặt với những thách thức nào?"}
+{"question_id": 42, "question": "Liệt kê những sự khác biệt giữa protein trong thực vật và động vật?"}
+{"question_id": 43, "question": "Các khác biệt chính giữa hai ngôn ngữ lập trình Python và JavaScript là gì?"}
+{"question_id": 44, "question": "Các chiến lược hiệu quả nhất để giải quyết xung đột tại nơi làm việc là gì?"}
+{"question_id": 45, "question": "Những yếu tố chính nào ảnh hưởng đến hành vi tiêu dùng của người tiêu dùng?"}
+{"question_id": 46, "question": "Chính phủ sử dụng chính sách tài khóa và tiền tệ như thứ nào để đối phó với suy thoái kinh tế?"}
+{"question_id": 47, "question": "Bạn sẽ xem xét những yếu tố nào khi thiết kế một hệ thống giao thông công cộng hoàn thiện và dễ tiếp cận với tất cả mọi người?"}
+{"question_id": 48, "question": "Có những tác động tiềm ẩn nào đối với môi trường và sức khỏe con người khi sử dụng chai nhựa một lần so với chai có thể tái sử dụng?"}
+{"question_id": 49, "question": "Ngôn ngữ và rào cản văn hóa ảnh hưởng đến cách mọi người giao tiếp và hình thành mối quan hệ trong xã hội đa văn hóa như thế nào?"}
+{"question_id": 50, "question": "Giải thích quá trình chỉnh sửa gene bằng công nghệ CRISPR-Cas9 và thảo luận về các ứng dụng tiềm năng và những vấn đề đạo đức liên quan."}
+{"question_id": 51, "question": "Mô tả một kịch bản trong đó trí tuệ nhân tạo có thể được sử dụng để cải thiện chất lượng và hiệu quả trong việc chăm sóc sức khỏe."}
+{"question_id": 52, "question": "Giải thích quá trình chọn lọc tự nhiên và cách nó đóng góp vào sự tiến hóa và thích nghi của các loài."}
+{"question_id": 53, "question": "Các loại vắc-xin hoạt động như thế nào để bảo vệ cá nhân và cộng đồng khỏi các bệnh truyền nhiễm, và miễn dịch cộng đồng?"}
+{"question_id": 54, "question": "Các nền tảng truyền thông xã hội ảnh hưởng như thế nào đến cách mà con người tiêu thụ và chia sẻ tin tức, và những tác động tiềm năng đối với việc lan truyền tin thông tin sai sự thật là gì?"}
+{"question_id": 55, "question": "Các yếu tố văn hóa, xã hội và kinh tế ảnh hưởng như thế nào đến sự lựa chọn thực phẩm của con người, và làm thế nào để sử dụng những kiến thức này nhằm thúc đẩy chế độ ăn uống lành mạnh hơn?"}
+{"question_id": 56, "question": "Giải phương trình 3x + 10 = 5(x - 2) để tìm x"}
+{"question_id": 57, "question": "Cho hàm số f(x) = 5x^3 - 2x + 3, tìm giá trị của f(2)"}
+{"question_id": 58, "question": "Nếu đầu mút của một đoạn thẳng có tọa độ là (2, -2) và (10, 4), thì độ dài của đoạn thẳng đó là bao nhiêu?"}
+{"question_id": 59, "question": "Nếu bạn là một nhân vật trong Truyện Kiều của Nguyễn Du, bạn sẽ bày tỏ cảm xúc của mình như thế nào với Thúy Kiều?"}
+{"question_id": 60, "question": "Là một siêu anh hùng, bạn sẽ giải thích nguồn gốc của mình như thế nào cho một đứa trẻ tò mò?"}
+{"question_id": 61, "question": "Là một thuyền trưởng cướp biển, bạn sẽ nói gì với thủy thủ đoàn của mình để khích lệ họ tìm kiếm kho báu ẩn?"}
+{"question_id": 62, "question": "Bạn sẽ giới thiệu bản thân là một hiệp sĩ trung cổ như thế nào tại một bữa tiệc hoàng gia? "}
+{"question_id": 63, "question": "Bạn là một người leo núi đang leo lên đỉnh Everest. Hãy miêu tả cảm xúc của bạn và khung cảnh khi nhìn từ đỉnh núi."}
+{"question_id": 64, "question": "Hãy tưởng tượng bạn là một nhà du hành thời gian từ năm 3000. Những tiến bộ công nghệ nào bạn sẽ kể cho mọi người biết?"}
+{"question_id": 65, "question": "Dưới vai trò là một cư dân định cư trên sao Hỏa, hãy mô tả cuộc sống hàng ngày của bạn và những thách thức mà bạn phải đối mặt khi sống trên một hành tinh khác."}
+{"question_id": 66, "question": "Giả sử bạn một nhà bình luận thể thao, hãy miêu tả pha ghi bàn chiến thắng trong những giây cuối cùng của trận chung kết."}
+{"question_id": 67, "question": "Hãy giả vờ là một đầu bếp nổi tiếng trên toàn thế giới. Bạn sẽ mô tả món ăn đặc trưng của mình cho một ban giám khảo như thế nào?"}
+{"question_id": 68, "question": "Hình dung mình là một nhân vật trong một thế giới hậu tận thế. Mô tả cách mà bạn sống sót và gặp gỡ mọi người."}
+{"question_id": 69, "question": "Bạn có thể giúp tôi viết một bức thư từ chối gửi cho nhà tuyển dụng hiện tại của tôi, đồng thời để lại ấn tượng tốt và bày tỏ lòng biết ơn về việc được tạo điều kiện trong quá trình tuyển dụng không?"}
+{"question_id": 70, "question": "Bạn có thể giúp tôi viết một email trang trọng tới một đối tác kinh doanh tiềm năng để đề xuất liên doanh không?"}
+{"question_id": 71, "question": "Soạn thảo email xin lỗi cho khách hàng đã gặp phải sự chậm trễ trong đơn đặt hàng của họ và đảm bảo rằng vấn đề đã được giải quyết."}
+{"question_id": 72, "question": "Lên kịch bản podcast cho một tập thảo luận về ảnh hưởng của các nền tảng phát trực tuyến đối với ngành công nghiệp âm nhạc"}
+{"question_id": 73, "question": "Viết một bài phê bình phim hấp dẫn cho một bộ phim khoa học viễn tưởng mới phát hành, thảo luận về cốt truyện, nhân vật và hiệu ứng đặc biệt của nó."}
+{"question_id": 74, "question": "Viết một email ra mắt sản phẩm hấp dẫn để thông báo cho khách hàng về giải pháp phần mềm mới của chúng tôi."}
+{"question_id": 75, "question": "Sử dụng một định dạng phù hợp để viết một thư giới thiệu chính thức cho một sinh viên đăng ký vào một chương trình sau đại học có uy tín về khoa học máy tính."}
+{"question_id": 76, "question": "Viết kịch bản cho video YouTube khám phá lịch sử và ý nghĩa văn hóa của nhạc jazz."}
+{"question_id": 77, "question": "Soạn một bài đăng trên blog du lịch về chuyến đi gần đây đến Hawaii, nêu những trải nghiệm văn hóa và những điểm tham quan không thể bỏ qua."}
+{"question_id": 78, "question": "Viết bài đánh giá về buổi hòa nhạc giao hưởng, thảo luận về màn trình diễn của dàn nhạc và trải nghiệm tổng thể của khán giả"}
