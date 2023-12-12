@@ -1,6 +1,6 @@
 # Enhancing Natural Language Comprehension through Multilingual Large Language Models and Instruction-Based Techniques
 
-My Thesis provides data, models, and evaluation benchmark for large language models.
+This repository provides data, models, and evaluation benchmark for large language models. Due to exceed qouta for git lfs, please visit the [gitlab version](https://gitlab.com/dathvthanh/Expert-B/-/tree/main/models?ref_type=heads) of this repository to clone full version with out missing any single file!
 
 ## Latest News
 - [05/10/2023]: Release dataset and training code. 
