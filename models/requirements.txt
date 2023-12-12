@@ -13,3 +13,4 @@ requests
 prompt_toolkit
 rich
 deepspeed
+fschat[model_worker,webui]
