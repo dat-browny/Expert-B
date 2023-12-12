@@ -1,16 +1,3 @@
-{
-  "base_model_name_or_path": "bigscience/bloomz-7b1-mt",
-  "bias": "none",
-  "fan_in_fan_out": false,
-  "inference_mode": true,
-  "init_lora_weights": true,
-  "lora_alpha": 32,
-  "lora_dropout": 0.05,
-  "modules_to_save": null,
-  "peft_type": "LORA",
-  "r": 16,
-  "target_modules": [
-    "query_key_value"
-  ],
-  "task_type": "CAUSAL_LM"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a203bdc6634c8a38a306a4b71251d76751085fadedd8a43dfefa2f8db990713b
+size 341
